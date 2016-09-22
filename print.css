@@ -1,57 +1,57 @@
 /* GENERAL STYLES ----------------------------------------------------------- */
 
 html {
-	font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', serif;
 }
 
 @page {
-	margin-top: 2cm;
-	margin-bottom: 2cm;
+  margin-top: 2cm;
+  margin-bottom: 2cm;
 }
 
 /* HEADER ------------------------------------------------------------------- */
 
 nav {
-	display: none;
+  display: none;
 }
 
 header {
-	background-image: none;
-	height: 50px;
-	margin-bottom: 20px;
-	overflow: visible;
+  background-image: none;
+  height: 50px;
+  margin-bottom: 20px;
+  overflow: visible;
 }
 
 .header-donuts-image {
-	background-image: none;
+  background-image: none;
 }
 
 .header-contact-image {
-	background-image: none;
+  background-image: none;
 }
 
 header > div {
-	top: 0;
+  top: 0;
 }
 
 #headline-intro {
-	display: none;
+  display: none;
 }
 
 h1 {
-	font-size: 40px;
+  font-size: 40px;
 }
 
 /* MAIN CONTENT ------------------------------------------------------------- */
 
 main {
-	font-size: 12px;
-	padding: 0 60px;
+  font-size: 12px;
+  padding: 0 60px;
 }
 
 #introduction {
-	font-size: 14px;
-	font-weight: 700;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 #introduction::first-letter {
@@ -59,51 +59,51 @@ main {
 }
 
 h2 {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 h3 {
-	font-size: 15px;
+  font-size: 15px;
 }
 
 a {
-	color: #000;
-	font-weight: 400;
+  color: #000;
+  font-weight: 400;
 }
 
 a[href^="http"] {
-	background-image: none;
-	padding-right: 0;
+  background-image: none;
+  padding-right: 0;
 }
 
 /* COLUMNS ------------------------------------------------------------------ */
 
 .flex-container {
-	display: block;
+  display: block;
 }
 
 .allergy, .full-content {
-	color: #000;
-	font-weight: 400;
-	font-size: 12px;
-	font-style: normal;
-	margin-bottom: 0;
-	text-transform: none;
-	text-align: left;
+  color: #000;
+  font-weight: 400;
+  font-size: 12px;
+  font-style: normal;
+  margin-bottom: 0;
+  text-transform: none;
+  text-align: left;
 }
 
 .donut-description {
-	font-size: 14px;
+  font-size: 14px;
 }
 
 /* DIV WITH MAP (CONTACT PAGE) ---------------------------------------------- */
 
 .map {
-	display: none;
+  display: none;
 }
 
 /* FOOTER ------------------------------------------------------------------- */
 
 footer {
-	display: none;
+  display: none;
 }
