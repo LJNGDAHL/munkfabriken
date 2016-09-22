@@ -59,11 +59,21 @@ START OF HEADER CONTENT
 
 @keyframes navigation-is-sliding-in {
   from {
-    transform: translateY(-54px);
+    transform: translateY(0px);
   }
 
   to {
+    transform: translateY(54px);
+  }
+}
+
+@keyframes navigation-is-sliding-in-small {
+  from {
     transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(114px);
   }
 }
 
@@ -71,7 +81,7 @@ nav {
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
   position: fixed;
-  top: 0px;
+  top: -54px;
   width: 100%;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
@@ -96,6 +106,12 @@ nav ul {
 }
 
 @media all and (max-width: 500px) {
+
+  nav {
+    top: -114px;
+    animation-name: navigation-is-sliding-in-small;
+    animation-delay: 0.2s;
+  }
 
   nav ul {
     align-items: flex-start;
